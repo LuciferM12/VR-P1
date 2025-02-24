@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SceneManager : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
     public void MenuScene() {
-        //SceneManager.loadSCene("Menu");
+        SceneManager.LoadScene("Menu");
+    }
+    public void GameScene() { 
+        SceneManager.LoadScene("ImageTarget");
+    }
+    public void exit() { 
+        Application.Quit();
     }
 }
