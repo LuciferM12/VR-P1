@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240163384
 GameObject:
@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 240163385}
   - component: {fileID: 240163387}
   - component: {fileID: 240163386}
+  - component: {fileID: 240163388}
   m_Layer: 0
   m_Name: dinoNormal
   m_TagString: Untagged
@@ -271,6 +272,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240163384}
   m_Mesh: {fileID: -2432090755550338912, guid: dcfd4c0f06e91c147b13d6087052671e, type: 3}
+--- !u!64 &240163388
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240163384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: dcfd4c0f06e91c147b13d6087052671e, type: 3}
 --- !u!1 &474095179
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +309,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474095179}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -305,8 +320,8 @@ Transform:
   - {fileID: 240163385}
   - {fileID: 1575244700}
   - {fileID: 703582476}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1722374300}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &559221139
 GameObject:
@@ -631,7 +646,7 @@ RectTransform:
   - {fileID: 658153298}
   - {fileID: 1369078031}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1005,7 +1020,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369078030
 GameObject:
@@ -1555,7 +1570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1722374299}
   mHiddenRoot: {fileID: 0}
-  mTargetName: dd
+  mTargetName: d
   mDatasetName: Vuforia/DinoGame.xml
   mCastedBehaviour: {fileID: 1722374299}
   mMeshFilter: {fileID: 0}
@@ -1619,7 +1634,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: dd
+  mTrackableName: d
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/DinoGame.xml
   mAspectRatio: 0.87793
@@ -1641,7 +1656,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 474095180}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
