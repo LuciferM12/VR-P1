@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Chrome Bird Flying
+* source:	https://sketchfab.com/3d-models/3d-chrome-bird-flying-e62181eb3c7e47e1adf6e0498f2c84fd
+* author:	MayMax (https://sketchfab.com/MayMax)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Chrome Bird Flying" (https://sketchfab.com/3d-models/3d-chrome-bird-flying-e62181eb3c7e47e1adf6e0498f2c84fd) by MayMax (https://sketchfab.com/MayMax) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
