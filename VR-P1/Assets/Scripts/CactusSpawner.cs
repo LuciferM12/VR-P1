@@ -17,7 +17,7 @@ public class CactusSpawner : MonoBehaviour
     {
         if (imageTarget != null)
         {
-            Vector3 spawnPosition = imageTarget.TransformPoint(new Vector3(0, 0, 0));
+            Vector3 spawnPosition = imageTarget.TransformPoint(new Vector3(1, 0, 0));
             Instantiate(cactusPrefab, spawnPosition, Quaternion.identity, imageTarget);
         }
     }
