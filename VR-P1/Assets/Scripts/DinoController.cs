@@ -40,7 +40,6 @@ public class DinoController : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y - Time.deltaTime * 0.6f, transform.position.z);
             yield return null;
         }
-        que
         transform.position = new Vector3(transform.position.x, startY, transform.position.z);
         isGrounded = true;
     }
