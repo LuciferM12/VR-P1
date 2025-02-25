@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -355,11 +355,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101327827}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0732837, y: 2.0464559, z: 0.60330796}
-  m_Center: {x: -0.15916497, y: 1.0449718, z: -0.10774646}
+  m_Size: {x: 2.0732837, y: 2.0464559, z: 2.7231324}
+  m_Center: {x: -0.15916497, y: 1.0449718, z: 0}
 --- !u!95 &101327829
 Animator:
   serializedVersion: 3
@@ -398,8 +398,20 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 124
+  m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &101327832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101327827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d295c5e62eb1b41bfe6d0f9726f9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &250013769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1101,9 +1113,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1271823178}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: MenuScene
+      - m_Target: {fileID: 101327832}
+        m_TargetAssemblyTypeName: DinoController, Assembly-CSharp
+        m_MethodName: Jump
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1493,7 +1505,7 @@ GameObject:
   - component: {fileID: 1913553816}
   m_Layer: 0
   m_Name: CactusSpawner
-  m_TagString: Untagged
+  m_TagString: Cactus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
