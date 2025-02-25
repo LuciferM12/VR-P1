@@ -23,20 +23,11 @@ AnimationClip:
         time: 0
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: -0, y: -0, z: -0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
-      - serializedVersion: 3
-        time: 0.25
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -46,104 +37,92 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: -0, y: -0, z: -0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
-      - serializedVersion: 3
-        time: 0.25
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 4, y: 4, z: 4}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
-      - serializedVersion: 3
-        time: 0.5
         value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 4, y: 4, z: 4}
+        inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Sketchfab_model/sketchfab.timeframe/Object_8
+  m_FloatCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: -0, y: -0, z: -0}
-        tangentMode: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 0.5
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 4, y: 4, z: 4}
-        tangentMode: 0
+        time: 0.033333335
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 0.75
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 4, y: 4, z: 4}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
+        time: 0.06666667
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sketchfab_model/sketchfab.timeframe/Object_5
+    attribute: m_IsActive
+    path: Sketchfab_model/sketchfab.timeframe/Object_11
+    classID: 1
+    script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: -0, y: -0, z: -0}
-        tangentMode: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 0.75
-        value: {x: 1e-10, y: 1e-10, z: 1e-10}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 4, y: 4, z: 4}
-        tangentMode: 0
+        time: 0.033333335
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 1
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 4, y: 4, z: 4}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
+        time: 0.06666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0, y: 0, z: 0}
-        outWeight: {x: 0, y: 0, z: 0}
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sketchfab_model/sketchfab.timeframe/Object_2
-  m_FloatCurves: []
+    attribute: m_IsActive
+    path: Sketchfab_model/sketchfab.timeframe/Object_8
+    classID: 1
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 2
@@ -153,28 +132,28 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
+      path: 3538681959
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 2536723093
-      attribute: 3
+      attribute: 2086281974
       script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3917622824
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2011609995
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
+      typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3538681959
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2536723093
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -186,7 +165,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.06666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -209,15 +188,6 @@ AnimationClip:
         time: 0
         value: 1
         inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
-        value: 1
-        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -235,15 +205,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
         value: 1
         inSlope: 0
         outSlope: 0
@@ -265,15 +226,6 @@ AnimationClip:
         time: 0
         value: 1
         inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
-        value: 1
-        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -291,26 +243,8 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
         value: 1
-        inSlope: 4
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -328,26 +262,8 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
         value: 1
-        inSlope: 4
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -365,26 +281,8 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.25
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
         value: 1
-        inSlope: 4
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -402,222 +300,74 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
         value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalScale.x
-    path: Sketchfab_model/sketchfab.timeframe/Object_5
-    classID: 4
+    attribute: m_IsActive
+    path: Sketchfab_model/sketchfab.timeframe/Object_11
+    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
+        time: 0.033333335
         value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalScale.y
-    path: Sketchfab_model/sketchfab.timeframe/Object_5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.z
-    path: Sketchfab_model/sketchfab.timeframe/Object_5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.x
-    path: Sketchfab_model/sketchfab.timeframe/Object_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.y
-    path: Sketchfab_model/sketchfab.timeframe/Object_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1e-10
-        inSlope: 0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 1e-10
-        inSlope: 0
-        outSlope: 4
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 4
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.z
-    path: Sketchfab_model/sketchfab.timeframe/Object_2
-    classID: 4
+    attribute: m_IsActive
+    path: Sketchfab_model/sketchfab.timeframe/Object_8
+    classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
