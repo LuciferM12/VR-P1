@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class CactusSpawner : MonoBehaviour
 {
-    public GameObject cactusPrefab;
+    public GameObject[] cactusPrefabs;
     public float spawnInterval = 2f;
-    public Transform imageTarget; // Referencia al Image Target
-
+    public Transform imageTarget; 
     void Start()
     {
         InvokeRepeating("SpawnCactus", 1f, spawnInterval);
@@ -15,8 +14,10 @@ public class CactusSpawner : MonoBehaviour
 
     void SpawnCactus()
     {
-        if (imageTarget != null)
+        if (imageTarget != null && cactusPrefabs.Length > 0)
         {
+
+            GameObject cactusPrefab = cactusPrefabs[Random.Range(0, cactusPrefabs.Length)];
             Vector3 spawnPosition = imageTarget.TransformPoint(new Vector3(1, 0, 0));
             Instantiate(cactusPrefab, spawnPosition, Quaternion.identity, imageTarget);
         }
