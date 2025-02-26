@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DinoController : MonoBehaviour
 {
@@ -16,13 +17,14 @@ public class DinoController : MonoBehaviour
 
     public AudioClip sonidoSalto;
     public AudioClip sonidoChoque;
+    public GameObject gameOverText;
 
     void Start()
     {
         //rb = GetComponent<Rigidbody>();
         startY = transform.position.y;
         sonidoJugador = GetComponent<AudioSource>();
-
+        gameOverText.SetActive(false);
     }
 
     public void Jump()
@@ -88,6 +90,7 @@ public class DinoController : MonoBehaviour
         if(collider.CompareTag("Cactus")){
             Debug.Log("Game Over");
             Time.timeScale = 0;  // Detiene el juego
+            gameOverText.SetActive(true);
         }
     }
 }

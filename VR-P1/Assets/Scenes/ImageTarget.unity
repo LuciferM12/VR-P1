@@ -549,6 +549,7 @@ MonoBehaviour:
   polvo: {fileID: 0}
   sonidoSalto: {fileID: 0}
   sonidoChoque: {fileID: 0}
+  gameOverText: {fileID: 1862223897}
 --- !u!1001 &250013769
 PrefabInstance:
   m_ObjectHideFlags: 0
