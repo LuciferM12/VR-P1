@@ -14,7 +14,7 @@ public class CactusSpawner : MonoBehaviour
 
     void SpawnCactus()
     {
-        if (imageTarget != null && cactusPrefabs.Length > 0)
+        if ( cactusPrefabs.Length > 0)
         {
 
             GameObject cactusPrefab = cactusPrefabs[Random.Range(0, cactusPrefabs.Length)];

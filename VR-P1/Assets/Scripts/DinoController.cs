@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DinoController : MonoBehaviour
 {
-    private float jumpForce = 0.15f;
+    private float jumpForce = 0.3f;//0.15f;
     private float jumpSpeed = 2f;
     //private Rigidbody rb;
     private AudioSource sonidoJugador;
@@ -50,7 +50,7 @@ public class DinoController : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(0.1f); // Pausa antes de bajar
+        yield return new WaitForSeconds(0.3f /*0.1f*/); // Pausa antes de bajar
 
         // Bajar hasta la posición inicial
         while (transform.position.y > startY)
