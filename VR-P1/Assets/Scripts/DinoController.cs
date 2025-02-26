@@ -5,6 +5,7 @@ using UnityEngine;
 public class DinoController : MonoBehaviour
 {
     private float jumpForce = 0.15f;
+    private float jumpSpeed = 2f;
     //private Rigidbody rb;
     private AudioSource sonidoJugador;
 
@@ -38,21 +39,32 @@ public class DinoController : MonoBehaviour
 
     private IEnumerator SimulateJump()
     {
+        isGrounded = false; // 🔥 Evita saltos dobles
+        float startY = transform.position.y;
         float targetY = startY + jumpForce;
+
+        // Subir hasta la altura máxima
         while (transform.position.y < targetY)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + Time.deltaTime * 0.6f, transform.position.z);
+            transform.position += Vector3.up * (jumpSpeed * Time.deltaTime);
             yield return null;
         }
 
-        // Volver al suelo (o la altura original)
+        yield return new WaitForSeconds(0.1f); // Pausa antes de bajar
+
+        // Bajar hasta la posición inicial
         while (transform.position.y > startY)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - Time.deltaTime * 0.6f, transform.position.z);
+            transform.position -= Vector3.up * (jumpSpeed * Time.deltaTime);
+
+            if (transform.position.y < startY) // 🔥 Corrige la posición exacta
+            {
+                transform.position = new Vector3(transform.position.x, startY, transform.position.z);
+            }
+
             yield return null;
         }
-        transform.position = new Vector3(transform.position.x, startY, transform.position.z);
-        isGrounded = true;
+        isGrounded = true; // 🔥 Habilita el siguiente salto
     }
 
     /*void OnCollisionEnter(Collision collision)
